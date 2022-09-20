@@ -2,6 +2,7 @@ import os
 import re
 from optparse import OptionParser
 para=OptionParser()
+import argparse
 ## input the file 
 def argument_get():
     parser=argparse.ArgumentParser(prog='Clinvar database exmptation',description='A python script for generate clinvar database')
