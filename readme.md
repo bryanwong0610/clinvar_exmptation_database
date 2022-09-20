@@ -22,8 +22,13 @@
 In clinvar.vcf, if it already recorded that 'pathogenic' in the description, the keep it, and add it into exmpt database.
 
 the database will be like `1` in the colums `clinvar_exmpt`. 
+
 ## how to use this script
+ 
  this script do not write the jugde function to know the md5 value is equal to the raw md5 value 
+ 
  ***sh clinvar.update.sh $1***
+ 
  $1 is the clinvar.vcf.gz file 
+
 finally will get the `hg19/hg38`_clinvar_exmpt.txt which can be using in annovar
