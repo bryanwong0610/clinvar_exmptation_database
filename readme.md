@@ -4,13 +4,13 @@
 ##  How to download and check the data
   ### hg19 
  
-  ***wget https://ftp.ncbi.nlm.nih.gov/pub/clinvar/vcf_GRCh37/clinvar.[date].vcf.gz***
+  ***wget https://ftp.ncbi.nlm.nih.gov/pub/clinvar/vcf_GRCh37/clinvar.[date].vcf.gz -O GRCh37_clinvar_[date].vcf.gz***
  
   ***wget https://ftp.ncbi.nlm.nih.gov/pub/clinvar/vcf_GRCh37/clinvar.[date].vcf.gz.md5***
  
   ### hg38
  
-  ***wget https://ftp.ncbi.nlm.nih.gov/pub/clinvar/vcf_GRCh38/clinvar.[date].vcf.gz***
+  ***wget https://ftp.ncbi.nlm.nih.gov/pub/clinvar/vcf_GRCh38/clinvar.[date].vcf.gz -O GRCh38_clinvar_[date].vcf.gz***
 
   ***wget https://ftp.ncbi.nlm.nih.gov/pub/clinvar/vcf_GRCh38/clinvar.[date].vcf.gz.md5***
   
